@@ -24,8 +24,10 @@ public class Craft {
 
 
     public void move() {
-        x += dx;
-        y += dy;
+//        x += dx;
+//        y += dy;
+        x = x + dx;
+        y = y + dy;
     }
 
     public int getX() {

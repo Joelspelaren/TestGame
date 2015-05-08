@@ -23,7 +23,8 @@ public class Board extends JPanel implements ActionListener {
 
         addKeyListener(new TAdapter());
         setFocusable(true);
-        setBackground(Color.BLACK);
+//        setBackground(Color.BLACK);
+        setBackground(Color.RED);
         setDoubleBuffered(true);
 
         craft = new Craft();
